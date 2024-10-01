@@ -4,7 +4,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url("/Pratice/calcolatrice/images/sfondo.jpg"); /* Background image */
+  background-image: url("images/sfondo.jpg"); /* Background image */
   background-size: cover;
   margin: 0;
 }

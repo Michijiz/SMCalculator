@@ -1,8 +1,8 @@
 const screen = document.querySelector(".screen");
 const buttons = document.querySelectorAll(".buttons button");
-const coinSound = new Audio("/Pratice/calcolatrice/sounds/coin_sound.mp3");
+const coinSound = new Audio("sounds/coin_sound.mp3");
 const gameOverSound = new Audio("game_over_sound.mp3");
-const equalSound = new Audio("/Pratice/calcolatrice/sounds/equal_sound.mp3");
+const equalSound = new Audio("sounds/equal_sound.mp3");
 
 let expression = "";
 let coinSoundPlaying = false;
