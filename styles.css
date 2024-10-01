@@ -1,0 +1,56 @@
+body {
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/Pratice/calcolatrice/images/sfondo.jpg"); /* Background image */
+  background-size: cover;
+  margin: 0;
+}
+
+.calculator {
+  border: 2px solid #333;
+  border-radius: 10px;
+  background-color: #f70707; /* Light Pink */
+  padding: 10px;
+  box-shadow: 5px 5px 10px #000; /* Shadow effect */
+}
+
+.screen {
+  background-color: #ff7a7a; /* Light Salmon */
+  border: 1px solid #ccc;
+  text-align: right;
+  padding: 5px;
+  margin-bottom: 10px;
+  height: 40px;
+  font-size: 1.5em; /* Increased font size */
+  color: #fff; /* White text color */
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  background-color: #f4d03f; /* Minion Yellow */
+  border: 1px solid #e59866; /* Desert Sand */
+  padding: 10px;
+  margin: 5px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 1.2em; /* Increased font size */
+  color: #fff; /* White text color */
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px #000; /* Button shadow effect */
+}
+
+button:hover {
+  background-color: #f7dc6f; /* Pastel Yellow */
+}
+
+button:nth-child(13) {
+  background-color: #080b91; /* Blue color for the "C" button */
+}
